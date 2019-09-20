@@ -1,0 +1,16 @@
+{
+  "name": "the-web-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "teststart": "node index.js  https://en.wikipedia.org/wiki/Dog 3 The domestic dog"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0",
+    "url-parse": "^1.4.7"
+  }
+}
